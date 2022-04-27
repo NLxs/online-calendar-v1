@@ -19,8 +19,8 @@ nextMonth.onclick = () => {
 
 const today = document.querySelector("#today");
 today.onclick = () => {
-  // render(new Date());
-  console.log("待定");
+  render(new Date());
+  // console.log("待定");
 };
 
 function render(time) {
