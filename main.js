@@ -83,6 +83,7 @@ function render(time) {
       li.textContent = d.getDate();
       li.classList.add("calendar-days-disabled");
       days.prepend(li);
+      n += 1;
     }
     let i = 月末星期几 + 1;
     for (let j = 0; j < 42 - n; j++) {
